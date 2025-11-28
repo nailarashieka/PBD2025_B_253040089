@@ -1,0 +1,3 @@
+PRINT 'Data Produk SETELAH Delete (Belum di-COMMIT):'; 
+SELECT * FROM Produk WHERE SKU = 'BUK-001';
+COMMIT TRANSACTION;
